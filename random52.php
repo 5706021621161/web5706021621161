@@ -1,5 +1,5 @@
 <html>
-<head><title></title>
+<head><title> สุ่มตัวเลข 1-52 แบบไม่ซ้ำกัน </title>
 <meta charset="utf-8">
 </head>
 <body>
@@ -7,7 +7,7 @@
   <?php
         $A = array();
         echo "<form>";
-        echo "<table border='0' align='center' width='500'>";
+        echo "<table border='1' align='center' width='500'>";
         for ($i2=0; $i2 <13; $i2++)
         {
         echo"<tr>";
