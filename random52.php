@@ -3,11 +3,13 @@
 <meta charset="utf-8">
 </head>
 <body>
-
+<center>
   <?php
         $A = array();
+
+        echo "การสุ่มเลข";
         echo "<form>";
-        echo "<table border='1' align='center' width='500'>";
+        echo "<table border='1' align='center' width='500' bgcolor='CCFFFF'>";
         for ($i2=0; $i2 <13; $i2++)
         {
         echo"<tr>";
