@@ -7,9 +7,9 @@
   <?php
         $A = array();
 
-        echo "การสุ่มเลข";
+        echo "<H1><u>การสุ่มเลข</u></H1><br>";
         echo "<form>";
-        echo "<table border='1' align='center' width='500' bgcolor='CCFFFF'>";
+        echo "<table border='1' align='center' width='500' bgcolor='#E8E8E8'>";
         for ($i2=0; $i2 <13; $i2++)
         {
         echo"<tr>";
@@ -33,7 +33,7 @@
         }
         echo      "</table>";
         echo      "</form>";
-
+        echo "<a href='random52.php'><input type='submit' value='  กดเพื่อสุ่มใหม่  '/></a>";
 
 
 
